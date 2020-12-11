@@ -1,0 +1,179 @@
+img{
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:450px;
+}
+.block1{
+	background-color:gray;
+	position:absolute;
+	width:100%;
+	height:450px;
+	left:0;
+	top:0;
+	transform:translate(0px,530px);
+	
+}
+
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#3129AE;
+}
+
+.header{
+	height:80px;
+	width:100%;
+	position:absolute;
+	top:0;
+	margin:0;
+	padding:0;
+	left:0;
+	background-color:#0B5A7F;
+
+	
+}
+header{
+	padding:10px 20px;
+	font-size:25px;
+	font-family:arial black;
+	line-height:58px;
+	position:absolute;
+	background-color:#054261;
+	color:white;
+	height:60px;
+	width:95px;
+	transform:rotate(360deg);
+}
+.menu a{
+	
+}
+.menu li{
+	display:block;
+	font-family:arial black;
+	box-shadow:0px 0px 20px #70A5BD;
+	border-radius:40px;
+	background-color:#0EC478;
+	margin-left:10px;
+	position:relative;
+	left:790px;
+	padding:15px 16px;
+	float:left;
+	transition:2s;
+	transform:rotate(360deg);
+	
+}
+.menu li:hover{
+	background-color:#FBF8F8;
+	transition:.6s;
+	
+}
+#img1{
+	top:80px;
+	position:absolute;
+}
+
+
+
+
+#animation1{
+	
+	border-radius:100%;
+	animation-name:anim1;
+	position:relative;
+	width:10px;
+	height:10px;
+	animation-iteration-count:infinite;
+	animation-duration:5s;
+}
+
+@keyframes anim1{
+	from{
+		background-color:violet;
+		
+	}
+	to{
+		background-color:yellow;
+	}
+}
+
+
+
+#animation2{
+	top:10px;
+	border-radius:100%;
+	animation-name:anim2;
+	position:relative;
+	width:10px;
+	height:10px;
+	animation-iteration-count:infinite;
+	animation-duration:5s;
+}
+
+@keyframes anim2{
+	from{
+		background-color:blue;
+	}
+	to{
+		background-color:red;
+
+	}
+}
+
+
+
+
+
+#animation3{
+	top:-52px;
+	left:88px;
+	border-radius:100%;
+	animation-name:anim3;
+	position:relative;
+	width:10px;
+	height:10px;
+	animation-iteration-count:infinite;
+	animation-duration:3s;
+}
+
+@keyframes anim3{
+	from{
+		background-color:violet;
+		top:-65px;
+	}
+	to{
+		background-color:yellow;
+	}
+}
+
+
+
+#animation4{
+	left:88px;
+	top:-40px;
+	border-radius:100%;
+	animation-name:anim4;
+	position:relative;
+	width:10px;
+	height:10px;
+	animation-iteration-count:infinite;
+	animation-duration:3s;
+}
+
+@keyframes anim4{
+	from{
+		background-color:blue;
+		top:-25px;
+	}
+	to{
+		background-color:red;
+
+	}
+}
+
+
+
+
